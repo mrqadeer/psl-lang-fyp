@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+env/
+venv/
+.vscode/
+.idea/
+
+# Keras files
+*.h5
+*.keras
+.keras/
+.pytest_cache/
+
+# Temporary files
+Keypoints/
+*~
+.DS_Store
