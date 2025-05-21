@@ -229,7 +229,5 @@ def match(speech,mode):
         return label
 
 
-eel.start('main.html', size=(1920, 1080), options=web_options, callback=on_close)
-
-
-
+# Start the Eel application without the callback parameter
+eel.start('gui\\main.html', size=(1920, 1080), mode=web_options["mode"], host=web_options["host"], port=web_options["port"])
